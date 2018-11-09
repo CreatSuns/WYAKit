@@ -7,11 +7,13 @@
 //
 
 #import "WYAAppDelegate.h"
-
+#import "WYATableViewController.h"
 @implementation WYAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:[[WYATableViewController alloc]init]];
+    self.window.rootViewController = nav;
     // Override point for customization after application launch.
     return YES;
 }
