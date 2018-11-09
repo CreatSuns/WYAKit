@@ -4,8 +4,16 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - Masonry (1.0.2)
+  - WYAAlertView (0.1.7)
   - WYAKit (0.1.0):
+    - WYAAlertView
+    - WYAQRCode
+    - WYAVideoPlayer
     - YYText
+  - WYAQRCode (0.1.5)
+  - WYAVideoPlayer (0.1.1):
+    - Masonry (~> 1.0.0)
   - YYText (1.0.7)
 
 DEPENDENCIES:
@@ -15,6 +23,10 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - FBSnapshotTestCase
+    - Masonry
+    - WYAAlertView
+    - WYAQRCode
+    - WYAVideoPlayer
     - YYText
 
 EXTERNAL SOURCES:
@@ -23,7 +35,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  WYAKit: 8db3542a97d97a3a12251e4e2f36226b3fae7d0f
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  WYAAlertView: e9e9387491b05d8c0daef02b7e41ebad63d2281f
+  WYAKit: d168cf131f536c7297754a5a1aea7e8530b99ad3
+  WYAQRCode: 30e16c77ea7278c7a34cce8bc45d9534bba48a98
+  WYAVideoPlayer: ce3e47b118b9f0f7b0388c3eceaea6721d6601de
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
 PODFILE CHECKSUM: a2a689ac53e7443ecb2d9ab5fb670c935022104f

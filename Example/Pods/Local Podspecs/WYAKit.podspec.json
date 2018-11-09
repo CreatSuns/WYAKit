@@ -22,6 +22,15 @@
   "dependencies": {
     "YYText": [
 
+    ],
+    "WYAAlertView": [
+
+    ],
+    "WYAQRCode": [
+
+    ],
+    "WYAVideoPlayer": [
+
     ]
   }
 }

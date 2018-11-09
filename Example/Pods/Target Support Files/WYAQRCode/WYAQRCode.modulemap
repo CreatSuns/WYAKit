@@ -1,0 +1,6 @@
+framework module WYAQRCode {
+  umbrella header "WYAQRCode-umbrella.h"
+
+  export *
+  module * { export * }
+}
