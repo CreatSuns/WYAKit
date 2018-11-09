@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WYAKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WYAKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  WYAKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WYAKit: fe892710e3b235ff0964d5050d961a36b1c7912d
+
+PODFILE CHECKSUM: a2a689ac53e7443ecb2d9ab5fb670c935022104f
+
+COCOAPODS: 1.5.3
